@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Python
 %define	pnam	Bytecode
 Summary:	Python::Bytecode - Disassemble and investigate Python bytecode
